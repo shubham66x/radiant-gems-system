@@ -37,7 +37,7 @@ const Index = () => {
               postalCode: "141008",
               addressCountry: "IN",
             },
-            telephone: "+919876543210",
+            telephone: "+919855080128",
             openingHours: "Mo-Sa 10:00-20:00",
             priceRange: "₹₹₹",
             aggregateRating: {
