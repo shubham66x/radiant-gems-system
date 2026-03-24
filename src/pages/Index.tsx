@@ -7,8 +7,10 @@ import CollectionsSection from "@/components/CollectionsSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OfferSection from "@/components/OfferSection";
+import BranchesSection from "@/components/BranchesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import AIChatbot from "@/components/AIChatbot";
 
 const Index = () => {
   return (
