@@ -31,10 +31,10 @@ const Index = () => {
             image: "https://radhajewellers.com/hero-jewelry.jpg",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Chaura Bazar, Near Ghumar Mandi",
+              streetAddress: "Haibowal Main Rd, Near UCO Bank, Durga Puri",
               addressLocality: "Ludhiana",
               addressRegion: "Punjab",
-              postalCode: "141008",
+              postalCode: "141001",
               addressCountry: "IN",
             },
             telephone: "+919855080128",
