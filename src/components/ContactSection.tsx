@@ -32,18 +32,18 @@ const ContactSection = () => {
             {[
               {
                 icon: MapPin,
-                title: "Showroom Address",
-                lines: ["Chaura Bazar, Near Ghumar Mandi", "Ludhiana, Punjab 141008"],
+                title: "Main Showroom",
+                lines: ["Haibowal Main Rd, Near UCO Bank", "Durga Puri, Ludhiana - 141001"],
               },
               {
                 icon: Phone,
                 title: "Call Us",
-                lines: ["+91 98765 43210", "+91 01612 345678"],
+                lines: ["+91 98550 80128", "+91 94176 59017"],
               },
               {
                 icon: Clock,
                 title: "Showroom Timings",
-                lines: ["Mon – Sat: 10:00 AM – 8:00 PM", "Sunday: 11:00 AM – 6:00 PM"],
+                lines: ["Daily: 9:00 AM – 9:00 PM"],
               },
               {
                 icon: Mail,

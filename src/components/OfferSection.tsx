@@ -60,13 +60,13 @@ const OfferSection = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Button variant="hero" size="lg" asChild>
-              <a href="tel:+919876543210" className="text-base">
+              <a href="tel:+919855080128" className="text-base">
                 <Phone className="w-5 h-5" />
                 Call to Book Your Visit
               </a>
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-base">
+              <a href="https://wa.me/919855080128" target="_blank" rel="noopener noreferrer" className="text-base">
                 WhatsApp Us
               </a>
             </Button>

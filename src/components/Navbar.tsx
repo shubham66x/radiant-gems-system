@@ -21,7 +21,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-charcoal/95 backdrop-blur-md border-b border-gold/20"
     >
       <div className="container mx-auto flex items-center justify-between py-4">
-        <a href="#" className="font-display text-2xl md:text-3xl font-bold text-gradient-gold tracking-wider">
+        <a href="#" className="font-display text-2xl md:text-3xl font-bold text-gradient-gold tracking-wider animate-glow-gold">
           Radha Jewellers
         </a>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="hero" size="sm" asChild>
-            <a href="tel:+919876543210">
+            <a href="tel:+919855080128">
               <Phone className="w-4 h-4" />
               Call Now
             </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="hero" size="sm" asChild>
-                <a href="tel:+919876543210">
+                <a href="tel:+919855080128">
                   <Phone className="w-4 h-4" />
                   Call Now
                 </a>

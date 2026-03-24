@@ -39,11 +39,11 @@ const StorySection = () => {
             className="space-y-6 text-cream/70 font-body text-lg leading-relaxed"
           >
             <p>
-              In 1985, Shri Radha Krishan ji opened a small jewelry workshop in the heart of Ludhiana 
+              In 1970, Shri Radha Krishan ji opened a small jewelry workshop in the heart of Ludhiana 
               with one simple promise: <strong className="text-gold">"Every piece will be as pure as our intention."</strong>
             </p>
             <p>
-              Four decades later, that promise has made Radha Jewellers the name over 10,000 Punjabi families 
+              Over five decades later, that promise has made Radha Jewellers the name over 10,000 Punjabi families 
               trust for their most precious moments — weddings, engagements, births, and celebrations.
             </p>
             <p>
@@ -61,7 +61,7 @@ const StorySection = () => {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16"
           >
             {[
-              { number: "40+", label: "Years of Trust" },
+              { number: "55+", label: "Years of Trust" },
               { number: "10,000+", label: "Happy Families" },
               { number: "500+", label: "Unique Designs" },
               { number: "100%", label: "BIS Hallmarked" },
