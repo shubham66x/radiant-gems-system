@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-display text-2xl font-bold text-gradient-gold mb-3">Radha Jewellers</h3>
+            <h3 className="font-display text-2xl font-bold text-gradient-gold animate-glow-gold mb-3">Radha Jewellers</h3>
             <p className="font-body text-cream/50 text-sm leading-relaxed">
-              Ludhiana's most trusted jeweller since 1985. BIS Hallmarked gold & diamond jewelry for every celebration.
+              Ludhiana's most trusted jeweller since 1970. BIS Hallmarked gold, silver & diamond jewelry for every celebration.
             </p>
           </div>
           <div>
