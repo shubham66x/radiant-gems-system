@@ -1,16 +1,66 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
+import StorySection from "@/components/StorySection";
+import CollectionsSection from "@/components/CollectionsSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import OfferSection from "@/components/OfferSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <>
+      <Helmet>
+        <title>Radha Jewellers Ludhiana | BIS Hallmarked Gold & Diamond Jewelry</title>
+        <meta
+          name="description"
+          content="Radha Jewellers — Ludhiana's most trusted jeweller since 1985. Shop BIS hallmarked gold necklaces, bangles, earrings & bridal jewelry. 100% buyback guarantee. Visit our Chaura Bazar showroom."
+        />
+        <meta name="keywords" content="gold jewellers ludhiana, bridal jewelry ludhiana, hallmarked gold jewelry, radha jewellers, punjab wedding jewelry, gold necklace ludhiana" />
+        <link rel="canonical" href="https://radhajewellers.com" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "JewelryStore",
+            name: "Radha Jewellers",
+            image: "https://radhajewellers.com/hero-jewelry.jpg",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Chaura Bazar, Near Ghumar Mandi",
+              addressLocality: "Ludhiana",
+              addressRegion: "Punjab",
+              postalCode: "141008",
+              addressCountry: "IN",
+            },
+            telephone: "+919876543210",
+            openingHours: "Mo-Sa 10:00-20:00",
+            priceRange: "₹₹₹",
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.9",
+              reviewCount: "1250",
+            },
+          })}
+        </script>
+      </Helmet>
+
+      <Navbar />
+      <main>
+        <HeroSection />
+        <ProblemSection />
+        <StorySection />
+        <CollectionsSection />
+        <BenefitsSection />
+        <TestimonialsSection />
+        <OfferSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
