@@ -61,7 +61,7 @@ const StorySection = () => {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16"
           >
             {[
-              { number: "40+", label: "Years of Trust" },
+              { number: "55+", label: "Years of Trust" },
               { number: "10,000+", label: "Happy Families" },
               { number: "500+", label: "Unique Designs" },
               { number: "100%", label: "BIS Hallmarked" },

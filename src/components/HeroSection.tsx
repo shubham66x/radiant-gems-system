@@ -102,7 +102,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-16 flex flex-wrap justify-center gap-8 text-cream/50 text-sm font-body"
         >
-          {["BIS Hallmarked", "40+ Years Legacy", "10,000+ Happy Families", "Free Lifetime Polishing"].map((badge) => (
+          {["BIS Hallmarked", "55+ Years Legacy", "10,000+ Happy Families", "Free Lifetime Polishing"].map((badge) => (
             <div key={badge} className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-gold/60" />
               {badge}

@@ -133,6 +133,21 @@
     50% { background-position: 100% 50%; }
   }
 
+  @keyframes glow-gold {
+    0%, 100% {
+      text-shadow: 0 0 10px hsl(38, 72%, 50%, 0.4), 0 0 20px hsl(38, 72%, 50%, 0.2), 0 0 40px hsl(38, 72%, 50%, 0.1);
+      filter: brightness(1);
+    }
+    50% {
+      text-shadow: 0 0 20px hsl(38, 72%, 50%, 0.8), 0 0 40px hsl(38, 72%, 50%, 0.5), 0 0 80px hsl(38, 72%, 50%, 0.3);
+      filter: brightness(1.15);
+    }
+  }
+
+  .animate-glow-gold {
+    animation: glow-gold 2.5s ease-in-out infinite;
+  }
+
   @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }

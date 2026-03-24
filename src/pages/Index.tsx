@@ -62,6 +62,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
+      <AIChatbot />
     </>
   );
 };

@@ -1,37 +1,37 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Shield, Gem, RefreshCw, Award, Truck, HeartHandshake } from "lucide-react";
+import { Shield, Gem, RefreshCw, CreditCard, ParkingCircle, Paintbrush } from "lucide-react";
 
 const benefits = [
+  {
+    icon: Gem,
+    title: "Diverse Collections",
+    description: "Specializes in 22K Hallmark gold, 925 silver, and diamond jewellery for every occasion.",
+  },
+  {
+    icon: Paintbrush,
+    title: "Custom Designs",
+    description: "Custom-made jewellery tailored to your specific style, personality, and design preferences.",
+  },
+  {
+    icon: CreditCard,
+    title: "Flexible Payments",
+    description: "EMI schemes, credit/debit cards, and UPI/NFC mobile payments — buy the way you want.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Old Gold Buyback",
+    description: "Trade or sell your existing gold with our transparent old gold buy-back option at market rates.",
+  },
+  {
+    icon: ParkingCircle,
+    title: "Showroom Amenities",
+    description: "Dedicated parking spaces with prime, easily accessible locations across Ludhiana.",
+  },
   {
     icon: Shield,
     title: "100% BIS Hallmarked",
     description: "Every piece comes with government-certified BIS hallmark. No compromises on purity.",
-  },
-  {
-    icon: Gem,
-    title: "Handcrafted Designs",
-    description: "500+ exclusive designs crafted by master karigars with decades of experience.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Lifetime Buyback",
-    description: "100% buyback on gold at prevailing market rate. Your investment is always safe.",
-  },
-  {
-    icon: Award,
-    title: "Transparent Pricing",
-    description: "Clear rate cards, no hidden charges. What you see is exactly what you pay.",
-  },
-  {
-    icon: Truck,
-    title: "Free Insured Delivery",
-    description: "Safe & insured delivery across Ludhiana. Or visit our showroom for a personal experience.",
-  },
-  {
-    icon: HeartHandshake,
-    title: "Family-First Service",
-    description: "Personal jewelry consultants for weddings. We treat your family like our own.",
   },
 ];
 

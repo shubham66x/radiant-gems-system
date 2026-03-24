@@ -75,7 +75,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="hero" size="sm" asChild>
-                <a href="tel:+919876543210">
+                <a href="tel:+919855080128">
                   <Phone className="w-4 h-4" />
                   Call Now
                 </a>
