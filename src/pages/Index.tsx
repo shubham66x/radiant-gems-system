@@ -19,7 +19,7 @@ const Index = () => {
         <title>Radha Jewellers Ludhiana | BIS Hallmarked Gold & Diamond Jewelry</title>
         <meta
           name="description"
-          content="Radha Jewellers — Ludhiana's most trusted jeweller since 1985. Shop BIS hallmarked gold necklaces, bangles, earrings & bridal jewelry. 100% buyback guarantee. Visit our Chaura Bazar showroom."
+          content="Radha Jewellers — Ludhiana's most trusted jeweller since 1970. Shop BIS hallmarked 22K gold, 925 silver & diamond jewellery. Old gold buyback. 3 showrooms in Ludhiana."
         />
         <meta name="keywords" content="gold jewellers ludhiana, bridal jewelry ludhiana, hallmarked gold jewelry, radha jewellers, punjab wedding jewelry, gold necklace ludhiana" />
         <link rel="canonical" href="https://radhajewellers.com" />
