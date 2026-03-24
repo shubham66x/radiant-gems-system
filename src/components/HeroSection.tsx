@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           <Sparkles className="w-4 h-4 text-gold" />
           <span className="text-gold/80 font-body text-sm tracking-[0.3em] uppercase">
-            Ludhiana's Most Trusted Jeweller Since 1985
+            Ludhiana's Most Trusted Jeweller Since 1970
           </span>
           <Sparkles className="w-4 h-4 text-gold" />
         </motion.div>
